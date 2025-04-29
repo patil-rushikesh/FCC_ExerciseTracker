@@ -1,0 +1,50 @@
+{
+  message: '\x1B[31mThe `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\x1B[39m',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2025-04-29 19:43:49'
+}
+{
+  message: '\x1B[31mThe `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\x1B[39m',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2025-04-29 19:44:41'
+}
+{
+  message: '\x1B[31mThe `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\x1B[39m',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2025-04-29 19:45:34'
+}
+{
+  message: '\x1B[32mApp listening at http://::1:3000\x1B[39m',
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2025-04-29 19:45:34'
+}
+{
+  message: '\x1B[32mApp listening at http://::1:3000\x1B[39m',
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2025-04-29 19:46:48'
+}
+{
+  message: '\x1B[32mConnected to database...\x1B[39m',
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2025-04-29 19:46:49'
+}
+{
+  message: '\x1B[31mThe `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\x1B[39m',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2025-04-29 19:48:47'
+}
+{
+  message: '\x1B[32mApp listening at http://::1:3000\x1B[39m',
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2025-04-29 19:48:47'
+}
+{
+  message: '\x1B[32mApp listening at http://::1:3000\x1B[39m',
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2025-04-29 19:49:01'
+}
+{
+  message: '\x1B[32mConnected to database...\x1B[39m',
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2025-04-29 19:49:01'
+}

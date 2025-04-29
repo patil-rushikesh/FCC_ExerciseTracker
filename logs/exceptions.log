@@ -1,0 +1,566 @@
+{
+  error: Error: Cannot find module 'moment'
+  Require stack:
+  - D:\Projects_academics\fcc\fcc-exercise-tracker\routes\exercise.js
+  - D:\Projects_academics\fcc\fcc-exercise-tracker\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+      at Module._load (node:internal/modules/cjs/loader:985:27)
+      at Module.require (node:internal/modules/cjs/loader:1235:19)
+      at require (node:internal/modules/helpers:176:18)
+      at Object.<anonymous> (D:\Projects_academics\fcc\fcc-exercise-tracker\routes\exercise.js:2:16)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Module.require (node:internal/modules/cjs/loader:1235:19)
+      at require (node:internal/modules/helpers:176:18)
+      at Object.<anonymous> (D:\Projects_academics\fcc\fcc-exercise-tracker\server.js:21:18)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js',
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js'
+    ]
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: "\x1B[31muncaughtException: Cannot find module 'moment'\x1B[39m\n" +
+    '\x1B[31mRequire stack:\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js\x1B[39m\n' +
+    "\x1B[31mError: Cannot find module 'moment'\x1B[39m\n" +
+    '\x1B[31mRequire stack:\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js\x1B[39m\n' +
+    '\x1B[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:985:27)\x1B[39m\n' +
+    '\x1B[31m    at Module.require (node:internal/modules/cjs/loader:1235:19)\x1B[39m\n' +
+    '\x1B[31m    at require (node:internal/modules/helpers:176:18)\x1B[39m\n' +
+    '\x1B[31m    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js:2:16)\x1B[39m\n' +
+    '\x1B[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)\x1B[39m\n' +
+    '\x1B[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\x1B[39m\n' +
+    '\x1B[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)\x1B[39m\n' +
+    '\x1B[31m    at Module.require (node:internal/modules/cjs/loader:1235:19)\x1B[39m\n' +
+    '\x1B[31m    at require (node:internal/modules/helpers:176:18)\x1B[39m\n' +
+    '\x1B[31m    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js:21:18)\x1B[39m\n' +
+    '\x1B[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)\x1B[39m\n' +
+    '\x1B[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\x1B[39m\n' +
+    '\x1B[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)\x1B[39m',
+  stack: "Error: Cannot find module 'moment'\n" +
+    'Require stack:\n' +
+    '- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js\n' +
+    '- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:985:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1235:19)\n' +
+    '    at require (node:internal/modules/helpers:176:18)\n' +
+    '    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js:2:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1235:19)\n' +
+    '    at require (node:internal/modules/helpers:176:18)\n' +
+    '    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js:21:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)',
+  exception: true,
+  date: 'Tue Apr 29 2025 19:43:49 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9688,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.11.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js'
+    ],
+    memoryUsage: {
+      rss: 64376832,
+      heapTotal: 34816000,
+      heapUsed: 18148016,
+      external: 20510567,
+      arrayBuffers: 18262267
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 12954.203 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1144,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 985,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1235,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 176,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1235,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 176,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2025-04-29 19:43:49'
+}
+{
+  error: Error: Cannot find module 'joi'
+  Require stack:
+  - D:\Projects_academics\fcc\fcc-exercise-tracker\models\users.js
+  - D:\Projects_academics\fcc\fcc-exercise-tracker\routes\exercise.js
+  - D:\Projects_academics\fcc\fcc-exercise-tracker\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+      at Module._load (node:internal/modules/cjs/loader:985:27)
+      at Module.require (node:internal/modules/cjs/loader:1235:19)
+      at require (node:internal/modules/helpers:176:18)
+      at Object.<anonymous> (D:\Projects_academics\fcc\fcc-exercise-tracker\models\users.js:2:13)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Module.require (node:internal/modules/cjs/loader:1235:19)
+      at require (node:internal/modules/helpers:176:18)
+      at Object.<anonymous> (D:\Projects_academics\fcc\fcc-exercise-tracker\routes\exercise.js:9:5)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js',
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js',
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js'
+    ]
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: "\x1B[31muncaughtException: Cannot find module 'joi'\x1B[39m\n" +
+    '\x1B[31mRequire stack:\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js\x1B[39m\n' +
+    "\x1B[31mError: Cannot find module 'joi'\x1B[39m\n" +
+    '\x1B[31mRequire stack:\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js\x1B[39m\n' +
+    '\x1B[31m- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js\x1B[39m\n' +
+    '\x1B[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:985:27)\x1B[39m\n' +
+    '\x1B[31m    at Module.require (node:internal/modules/cjs/loader:1235:19)\x1B[39m\n' +
+    '\x1B[31m    at require (node:internal/modules/helpers:176:18)\x1B[39m\n' +
+    '\x1B[31m    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js:2:13)\x1B[39m\n' +
+    '\x1B[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)\x1B[39m\n' +
+    '\x1B[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\x1B[39m\n' +
+    '\x1B[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)\x1B[39m\n' +
+    '\x1B[31m    at Module.require (node:internal/modules/cjs/loader:1235:19)\x1B[39m\n' +
+    '\x1B[31m    at require (node:internal/modules/helpers:176:18)\x1B[39m\n' +
+    '\x1B[31m    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js:9:5)\x1B[39m\n' +
+    '\x1B[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)\x1B[39m\n' +
+    '\x1B[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\x1B[39m\n' +
+    '\x1B[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)\x1B[39m',
+  stack: "Error: Cannot find module 'joi'\n" +
+    'Require stack:\n' +
+    '- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js\n' +
+    '- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js\n' +
+    '- D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:985:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1235:19)\n' +
+    '    at require (node:internal/modules/helpers:176:18)\n' +
+    '    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1235:19)\n' +
+    '    at require (node:internal/modules/helpers:176:18)\n' +
+    '    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js:9:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)',
+  exception: true,
+  date: 'Tue Apr 29 2025 19:44:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10488,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.11.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js'
+    ],
+    memoryUsage: {
+      rss: 67649536,
+      heapTotal: 35811328,
+      heapUsed: 21443312,
+      external: 20510568,
+      arrayBuffers: 18262268
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13006.843 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1144,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 985,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1235,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 176,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\models\\users.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1235,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 176,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\routes\\exercise.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2025-04-29 19:44:41'
+}
+{
+  error: TypeError: require(...) is not a function
+      at Object.<anonymous> (D:\Projects_academics\fcc\fcc-exercise-tracker\server.js:7:24)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+      at node:internal/main/run_main_module:28:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: '\x1B[31muncaughtException: require(...) is not a function\x1B[39m\n' +
+    '\x1B[31mTypeError: require(...) is not a function\x1B[39m\n' +
+    '\x1B[31m    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js:7:24)\x1B[39m\n' +
+    '\x1B[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)\x1B[39m\n' +
+    '\x1B[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\x1B[39m\n' +
+    '\x1B[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)\x1B[39m\n' +
+    '\x1B[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)\x1B[39m\n' +
+    '\x1B[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\x1B[39m\n' +
+    '\x1B[31m    at node:internal/main/run_main_module:28:49\x1B[39m',
+  stack: 'TypeError: require(...) is not a function\n' +
+    '    at Object.<anonymous> (D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js:7:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Tue Apr 29 2025 19:48:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 208,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.11.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js'
+    ],
+    memoryUsage: {
+      rss: 66572288,
+      heapTotal: 35078144,
+      heapUsed: 19395744,
+      external: 20510567,
+      arrayBuffers: 18262267
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13237.437 },
+  trace: [
+    {
+      column: 24,
+      file: 'D:\\Projects_academics\\fcc\\fcc-exercise-tracker\\server.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 135,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-04-29 19:48:32'
+}
